@@ -24,29 +24,29 @@ export default function FooterComponent() {
                                 name="Flowbite"
                             />
                         </div>
-                        <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
-                            <div>
-                                <FooterTitle className="text-white" title="about"/>
-                                <FooterLinkGroup col>
-                                    <FooterLink href="#">Flowbite</FooterLink>
-                                    <FooterLink href="#">Tailwind CSS</FooterLink>
-                                </FooterLinkGroup>
-                            </div>
-                            <div>
-                                <FooterTitle className="text-white" title="Follow us"/>
-                                <FooterLinkGroup col>
-                                    <FooterLink href="#">Github</FooterLink>
-                                    <FooterLink href="#">Discord</FooterLink>
-                                </FooterLinkGroup>
-                            </div>
-                            <div>
-                                <FooterTitle className="text-white" title="Legal"/>
-                                <FooterLinkGroup col>
-                                    <FooterLink href="#">Privacy Policy</FooterLink>
-                                    <FooterLink href="#">Terms &amp; Conditions</FooterLink>
-                                </FooterLinkGroup>
-                            </div>
+
+                        <div>
+                            <FooterTitle className="text-white" title="about"/>
+                            <FooterLinkGroup col>
+                                <FooterLink href="#">Flowbite</FooterLink>
+                                <FooterLink href="#">Tailwind CSS</FooterLink>
+                            </FooterLinkGroup>
                         </div>
+                        <div>
+                            <FooterTitle className="text-white" title="Follow us"/>
+                            <FooterLinkGroup col>
+                                <FooterLink href="#">Github</FooterLink>
+                                <FooterLink href="#">Discord</FooterLink>
+                            </FooterLinkGroup>
+                        </div>
+                        <div>
+                            <FooterTitle className="text-white" title="Legal"/>
+                            <FooterLinkGroup col>
+                                <FooterLink href="#">Privacy Policy</FooterLink>
+                                <FooterLink href="#">Terms &amp; Conditions</FooterLink>
+                            </FooterLinkGroup>
+                        </div>
+
                     </div>
                     <FooterDivider/>
                     <div className="w-full grid place-content-center sm:items-center">
