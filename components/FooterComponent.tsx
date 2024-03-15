@@ -12,7 +12,7 @@ import {BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter} from 'react-ic
 
 export default function FooterComponent() {
     return (
-        <div className="bg-primary p-4 fixed w-full bottom-0">
+        <div className="bg-primary p-4 bottom-0">
             <Footer className="container mx-auto bg-primary">
                 <div className="w-full">
                     <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
