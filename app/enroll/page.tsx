@@ -11,14 +11,14 @@ export default function Enroll() {
                     <form className="grid grid-cols-1 gap-4">
                         <div>
                             <div className="mb-2 block">
-                                <Label htmlFor="fullname1" value="Full name (en)" className="uppercase font-bold"/>
+                                <Label htmlFor="fullname1" value="Full name (en)" className="uppercase font-bold tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
                             <TextInput id="fullname1" type="email" placeholder="Hout Sovannarith" required/>
                         </div>
                         <div>
                             <div className="mb-2 block ">
-                                <Label htmlFor="course" value="COURSE" className="font-bold"/>
+                                <Label htmlFor="course" value="gender" className="font-bold uppercase tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
                             <Select id="course" required>
@@ -29,12 +29,34 @@ export default function Enroll() {
                         </div>
                         <div>
                             <div className="mb-2 block ">
-                                <Label htmlFor="course" value="COURSE" className="font-bold"/>
+                                <Label htmlFor="course" value="date of birth" className="font-bold uppercase tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
                             <Datepicker
                                 weekStart={1} // Monday
                             />
+                        </div>
+                        <div>
+                            <div className="mb-2 block ">
+                                <Label htmlFor="course" value="place of birth" className="font-bold uppercase tracking-[.25em]"/>
+                                <span className="text-red-500">*</span>
+                            </div>
+                            <Select id="course" required>
+                                <option disabled selected>Select place of birth</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </Select>
+                        </div>
+                        <div>
+                            <div className="mb-2 block ">
+                                <Label htmlFor="course" value="current address" className="font-bold uppercase tracking-[.25em]"/>
+                                <span className="text-red-500">*</span>
+                            </div>
+                            <Select id="course" required>
+                                <option disabled selected>Select current address</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </Select>
                         </div>
                     </form>
                 </div>
@@ -43,36 +65,36 @@ export default function Enroll() {
                     <form className="grid grid-cols-1 gap-4">
                         <div>
                             <div className="mb-2 block">
-                                <Label htmlFor="email1" value="email" className="uppercase font-bold"/>
+                                <Label htmlFor="email1" value="email" className="uppercase font-bold tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
                             <TextInput id="email1" type="email" placeholder="hout.sovannarith2000@gmail.com" required/>
                         </div>
                         <div>
                             <div className="mb-2 block">
-                                <Label htmlFor="username3" value="Phone Number" className="uppercase font-bold"/>
+                                <Label htmlFor="username3" value="Phone Number" className="uppercase font-bold tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
                             <TextInput id="username3" placeholder="95990910 (Telegram)" addon="+855" required/>
                         </div>
                         <div>
                             <div className="mb-2 block ">
-                                <Label htmlFor="course" value="COURSE" className="font-bold"/>
+                                <Label htmlFor="course" value="education" className="font-bold uppercase tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
                             <Select id="course" required>
-                                <option disabled selected>Select Gender</option>
+                                <option disabled selected>Select education</option>
                                 <option>Male</option>
                                 <option>Female</option>
                             </Select>
                         </div>
                         <div>
                             <div className="mb-2 block ">
-                                <Label htmlFor="course" value="COURSE" className="font-bold"/>
+                                <Label htmlFor="course" value="university" className="font-bold uppercase tracking-[.25em]"/>
                                 <span className="text-red-500">*</span>
                             </div>
                             <Select id="course" required>
-                                <option disabled selected>Select Gender</option>
+                                <option disabled selected>Select university</option>
                                 <option>Male</option>
                                 <option>Female</option>
                             </Select>
@@ -88,7 +110,7 @@ export default function Enroll() {
             <div className="px-14">
                 <div className="max-w-md">
                     <div className="mb-2 block ">
-                        <Label htmlFor="course" value="COURSE" className="font-bold"/>
+                        <Label htmlFor="course" value="COURSE" className="font-bold uppercase tracking-[.25em]"/>
                         <span className="text-red-500">*</span>
                     </div>
                     <Select id="course" required>
@@ -114,7 +136,7 @@ export default function Enroll() {
                 </div>
             </div>
             {/*Button*/}
-            <div className="flex justify-end gap-4 m-8">
+            <div className="flex justify-end gap-4">
                 <button
                     className="w-40 bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded uppercase">
                     Cancel
