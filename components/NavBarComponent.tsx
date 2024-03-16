@@ -3,7 +3,7 @@ import {Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle} from 'flo
 
 export default function NavBarComponent() {
     return (
-        <div className=" bg-primary py-2 px-4">
+        <div className=" bg-primary py-2 px-4 mb-4">
             <Navbar className="container ml-0 bg-primary">
                 <NavbarToggle className="text-white border-0 hover:text-primary sm:left-0 delay-75"/>
                 <NavbarBrand as={Link} href="/">

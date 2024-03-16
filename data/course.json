@@ -1,8 +1,9 @@
 [
   {
     "id": 1,
-    "title": "WebEssentials ប្រកាសរើសបុគ្គលិក Software Developer និង Senior Software Developer",
-    "image": "https://api.istad.co/media/image/665bb2ec-bd8b-4dc0-bbc0-c652aacc422b.png"
+    "title": "FLUTTER MOBILE DEVELOPMENT",
+    "image": "https://api.istad.co/media/image/899bac49-e47c-406c-abb2-30ad0b498f88.png",
+    "description": "Flutter course is designed to develop multi-platform like iOS and Android App, Web, Desktop apps like MacOS, Windows and Linux using one code base. We also include with UI / UX design concept. Moreover, integrate with third-party libraries and other mobile functionality to make your app more professional."
   },
   {
     "id": 2,
