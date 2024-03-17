@@ -20,9 +20,13 @@ export default function RootLayout({
         <html lang="en">
         <body className={inter.className}>
         <div className="bg-gray-200">
-            <NavBarComponent/>
+            <header className="sticky top-0 z-50">
+                <NavBarComponent/>
+            </header>
             {children}
-            <FooterComponent/>
+            <footer>
+                <FooterComponent/>
+            </footer>
         </div>
         </body>
         </html>
