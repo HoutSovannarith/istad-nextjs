@@ -1,5 +1,6 @@
 import CarouselComponent from "@/components/ui/Carousel";
 import CoursePage from "@/components/CoursePage";
+import MultiCarousel from "@/components/ui/MultiCarousel";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <div>
             <CoursePage/>
         </div>
+        <MultiCarousel/>
     </div>
   );
 }

@@ -78,8 +78,8 @@ export default function ITNews() {
         }
     ];
     return (
-        <div className="flex flex-col justify-center">
-            <h1 className="uppercase text-3xl font-extrabold pl-72 mb-4">Useful Contents</h1>
+        <div className="flex flex-col justify-center mt-4">
+            <h1 className="uppercase text-3xl font-extrabold pl-80 mb-4">Useful Contents</h1>
             <div className="container mx-auto">
                 <CardComponent news={news}/>
             </div>
